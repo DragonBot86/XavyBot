@@ -716,8 +716,8 @@ rate = body.slice(9)
 client.updatePresence(from, Presence.composing) 
 random = `${Math.floor(Math.random() * 100)}`
 Tombo = random
-if (Tombo < 0 ) {ga = 'Usted Me Llena De Orgullo :D'} else if (Tombo == 10 ) {ga = 'Orgulloso'} else if (Tombo == 20 ) {ga = 'Mas o menos 🤔'} else if (Tombo == 30 ) {ga = 'Mmm Nose Estas Raro'} else if (Tombo == 40 ) {ga = 'Señor Por Favor Alejese'} else if (Tombo == 50 ) {ga = 'Uribista :D'} else if (Tombo == 60 ) {ga = 'No Hpta Que Miedo'} else if (Tombo == 70 ) {ga = 'Señor? Que Paso?'} else if (Tombo == 80 ) {ga = 'Alejeseeeeeeeee Pero Yaaa'} else if (Tombo == 90 ) {ga = 'Esta Gonorreaaaaa Pa Fueraaa'} else if (Tombo == 100 ) {ga = 'Un Autentico Tombo Y Fan De Uribe'}
-hasil = `${rate}Usted es ${random}% tombo\n\n${ga}`
+if (Tombo < 0 ) {to = 'Usted Me Llena De Orgullo :D'} else if (Tombo == 10 ) {to = 'Orgulloso'} else if (Tombo == 20 ) {to = 'Mas o menos 🤔'} else if (Tombo == 30 ) {to = 'Mmm Nose Estas Raro'} else if (Tombo == 40 ) {to = 'Señor Por Favor Alejese'} else if (Tombo == 50 ) {to = 'Uribista :D'} else if (Tombo == 60 ) {to = 'No Hpta Que Miedo'} else if (Tombo == 70 ) {to = 'Señor? Que Paso?'} else if (Tombo == 80 ) {to = 'Alejeseeeeeeeee Pero Yaaa'} else if (Tombo == 90 ) {to = 'Esta Gonorreaaaaa Pa Fueraaa'} else if (Tombo == 100 ) {to = 'Un Autentico Tombo Y Fan De Uribe'}
+hasil = `${rate}Usted es ${random}% tombo\n\n${to}`
 reply(hasil)
 break
 
