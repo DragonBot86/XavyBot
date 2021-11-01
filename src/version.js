@@ -2,7 +2,7 @@ const version = (prefix, pushname) => {
     return `
 *XavyBot By Ochoa*
 
-*Actualizado:* 12 DE OCTUBRE DEL 2021
+*Actualizado:* 1 DE NOVIEMBRE DEL 2021
 *Versión actual:* 1.0
 *Ofrecida por:* Ochoa™
 
