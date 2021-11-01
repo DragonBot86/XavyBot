@@ -73,9 +73,9 @@ Comando de bienvenida solo grupos
   ╠ Cambiar nombre del grupo
   ╠ ○ ${prefix}dgc
   ╠ Cambiar descripcion del grupo
-  ╠ ○ ${prefix}closegc
+  ╠ ○ ${prefix}cerrar
   ╠ Cerrar el grupo solo admins
-  ╠ ○ ${prefix}opengc
+  ╠ ○ ${prefix}abrir
   ╠ Abrir grupo solo admins
   ╠ ○ ${prefix}kick
   ╠ Eliminar a un miembro 
