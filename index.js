@@ -1080,7 +1080,7 @@ client.groupLeave (from)
 }, 2000)
 setTimeout( () => {
 client.updatePresence(from, Presence.composing) 
-client.sendMessage(from, 'AHI NOS VEMOS DIJO EL CIEGO', text) // ur cods
+client.sendMessage(from, 'AHI NOS VEMOS DIJO EL CIEGO XD', text) // ur cods
 }, 0)
 break
        
