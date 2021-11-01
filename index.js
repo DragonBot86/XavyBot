@@ -834,6 +834,17 @@ break
 					prefix = args[0]
 					reply(`El prefijo se ha cambiado correctamente a : ${prefix}`)
 					break
+					
+case 'actualizar':
+case 'update':
+if (!itsMe) return reply('tu quien eres para decirme que hacer!?🤔')
+reply('*LISTO JEFE YA MISMO ME ACTUALIZO 3,2,1 LISTOOOO*')
+exec(`bash update.sh`, (err, stdout) => {
+if (err) return reply(err)
+if (stdout) reply(`*El bot se ah actualizado de forma satisfactoria*\n Informe de la actualización:\n\n${stdout}\n\nLos cambios se mostraran despues de volver a iniciar el bot!.`)
+})
+break
+		
 			case 'todos':
 				client.updatePresence(from, Presence.composing) 
 					if (!isGroup) return reply(mess.only.group)
