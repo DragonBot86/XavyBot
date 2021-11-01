@@ -844,7 +844,16 @@ if (err) return reply(err)
 if (stdout) reply(`*El bot se ah actualizado de forma satisfactoria*\n Informe de la actualización:\n\n${stdout}\n\nLos cambios se mostraran despues de volver a iniciar el bot!.`)
 })
 break
-		
+
+case 'restaurar':
+if (!itsMe) return reply('tu quien eres para decirme que hacer!?🤔')
+reply('*LA INFORMACION DE ESTE USUARIO SE RESTABLECERA PARA PODER USAR Y ESCANEAR EL CODIGO EN OTRO DISPOSITIVO*')
+exec(`bash restore.sh`, (err, stdout) => {
+if (err) return reply(err)
+if (stdout) reply(stdout)
+})
+break
+					
 			case 'todos':
 				client.updatePresence(from, Presence.composing) 
 					if (!isGroup) return reply(mess.only.group)
