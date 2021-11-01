@@ -9,7 +9,7 @@ const help = (prefix) => {
 
 ◉ *PARA USAR EL BOT*
 Registrate con el comando ${prefix}daftar y tu nombre
-Ejemplo Daftar: Ochoa
+Ejemplo ${prefix}daftar: Ochoa
 
 ◉ *NUEVOS COMANDOS*
 ○ ${prefix}banmenu
