@@ -1093,7 +1093,7 @@ contextInfo: { mentionedJid: [from] }
 client.sendMessage(from, options, text, { quoted: mek } )
 break
                                       
-case 'alv'':
+case 'alv':
 case 'kick':
 case 'pafuera':
 if (!isBotGroupAdmins) return reply(mess.only.Badmin)
