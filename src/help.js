@@ -67,17 +67,17 @@ Comando de bienvenida solo grupos
   ║
   ╠ ○ ${prefix}unir
   ╠ Unir a una persona al grupo
-  ╠ ○ ${prefix}fgc
+  ╠ ○ ${prefix}foto
   ╠ Cambiar foto del grupo
-  ╠ ○ ${prefix}ngc
+  ╠ ○ ${prefix}name
   ╠ Cambiar nombre del grupo
-  ╠ ○ ${prefix}dgc
+  ╠ ○ ${prefix}des
   ╠ Cambiar descripcion del grupo
   ╠ ○ ${prefix}cerrar
   ╠ Cerrar el grupo solo admins
   ╠ ○ ${prefix}abrir
   ╠ Abrir grupo solo admins
-  ╠ ○ ${prefix}kick
+  ╠ ○ ${prefix}alv
   ╠ Eliminar a un miembro 
   ╠ ○ ${prefix}promote
   ╠ Dar admin a un miembro
