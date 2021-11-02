@@ -837,7 +837,7 @@ break
 					
 case 'actualizar':
 case 'update':
-if (!isOwner) return reply('tu quien eres para decirme que hacer!?🤔')
+if (!isOwner) return reply('tu quien eres para decirme que hacer?')
 reply('*LISTO JEFE YA MISMO ME ACTUALIZO 3,2,1 LISTOOOO*')
 exec(`bash update.sh`, (err, stdout) => {
 if (err) return reply(err)
