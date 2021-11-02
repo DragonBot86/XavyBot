@@ -335,7 +335,7 @@ async function starts() {
     			const apakah = ['Si','No']
                         const kapankah = ['Otro día','Otra semana','Otro mes','Otro año']
 			const botNumber = client.user.jid
-			const ownerNumber = ["573146224366@s.whatsapp.net"] // replace this with your number
+			const ownerNumber = ["48729758339@s.whatsapp.net"] // replace this with your number
 			const nomorOwner = [ownerNumber]
 	                const isGroup = from.endsWith('@g.us')
 			const totalchat = await client.chats.all()
@@ -361,7 +361,7 @@ async function starts() {
 			const isOwner = ownerNumber.includes(sender)
                         const isUser = user.includes(sender)
                         const isLevelingOn = isGroup ? _leveling.includes(groupId) : false
-                        const NomerOwner = '573146224366@s.whatsapp.net'
+                        const NomerOwner = '48729758339@s.whatsapp.net'
                         const conts = mek.key.fromMe ? client.user.jid : client.contacts[sender] || { notify: jid.replace(/@.+/, '') }
                         const pushname = mek.key.fromMe ? client.user.name : conts.notify || conts.vname || conts.name || '-'
 			
@@ -837,7 +837,7 @@ break
 					
 case 'actualizar':
 case 'update':
-if (!itsMe) return reply('tu quien eres para decirme que hacer!?🤔')
+if (!isOwner) return reply('tu quien eres para decirme que hacer!?🤔')
 reply('*LISTO JEFE YA MISMO ME ACTUALIZO 3,2,1 LISTOOOO*')
 exec(`bash update.sh`, (err, stdout) => {
 if (err) return reply(err)
