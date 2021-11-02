@@ -841,7 +841,7 @@ if (!isOwner) return reply('tu quien eres para decirme que hacer?')
 reply('*LISTO JEFE YA MISMO ME ACTUALIZO 3,2,1 LISTOOOO*')
 exec(`bash update.sh`, (err, stdout) => {
 if (err) return reply(err)
-if (stdout) reply(`*El bot se ah actualizado de forma satisfactoria*\n Informe de la actualización:\n\n${stdout}\n\nLos cambios se mostraran despues de volver a iniciar el bot!.`)
+if (stdout) reply(`*BASE DE INFORME: ME ACTUALIZE BIEN JEFE*\n INFORME DE LO QUE ME ACTUALIZE:\n\n${stdout}\n\nAHORA TOCA PROBAR LO NUEVO :)).`)
 })
 break
 
