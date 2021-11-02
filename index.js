@@ -257,11 +257,11 @@ async function starts() {
 			console.log(anu)
 			if (anu.action == 'add') {
 				num = anu.participants[0]
-				teks = `HOLAA!! @${num.split('@')[0]} ¿COMO ESTAS?😃\n\n『Bienvenido A *${mdata.subject}*』\n\nUn gusto conocerte amig@ 🤗\n\n_Recuerda leer las reglas del grupo para no tener ningun problema 🧐_\n\n*Solo disfrutar de este grupo y divertite 🥳*`
+				teks = `!!HOLA NEFASTO!!🎩 @${num.split('@')[0]} 🎩¿COMO ESTAS?\n\n『𓆩𓆪᭄BIENVENIDO A ESTE PUTERO LLAMADO *${mdata.subject}* ⛧᭄』\n\n⌿𐄬PRESENTARSE CON: FOTO, NOMBRE, EDAD, PAIS, SINO TE PRESENTAS ES BAN POR PUTA\n\n_⌿𐄬EVITA HACER PENDEJADAS, SI ENTRAS A HACER BARDO LUEGO NO LLORES_\n\n*SI ERES MORRA PASAME PACK XDXD*`
                           client.sendMessage(mdata.id, teks, MessageType.text, { contextInfo: {"mentionedJid": [num]}})
 			} else if (anu.action == 'remove') {
 				num = anu.participants[0]
-				teks = `Bueno, se fue @${num.split('@')[0]} 👋\n\nQue dios lo bendiga 😎`
+				teks = `Bueno, se fue @${num.split('@')[0]} 👋\n\nBYE PUTAAAAAAAAA BARATAAAAAAAAAA`
 				client.sendMessage(mdata.id, teks, MessageType.text, {contextInfo: {"mentionedJid": [num]}})
 			}
 		} catch (e) {
