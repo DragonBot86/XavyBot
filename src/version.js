@@ -9,7 +9,7 @@ const version = (prefix, pushname) => {
 
 *INFORME*
 
-Si no sirve el !kick o !pafuera revisa que version del bot tienes y revisa el blog del bot
+HAY PROBLEMAS CON EL COMANDO HIDETAG
 Ya que ire cambiando mi apikey de mi bot para que siga en funcionamiento
 Cambiare la apikey pasando un mes o si veo muchos atercados o robos
 
