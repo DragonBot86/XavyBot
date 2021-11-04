@@ -6,6 +6,8 @@ const help = (prefix) => {
 ◉ *INFORMACION*
    ○ Comando: ⌜ ${prefix} ⌟
    ○ Creador: Ochoa
+   
+*INFORME* No Hay Hidetag Por El Momento
 
 ◉ *PARA USAR EL BOT*
 Registrate con el comando ${prefix}daftar y tu nombre
