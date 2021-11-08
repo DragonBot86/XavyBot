@@ -10,7 +10,7 @@ echo -e '\e[1;32m
 
 \e[0m'
 
-rm -r index.js
+rm -r session.data
 
 sleep 2.0
 
