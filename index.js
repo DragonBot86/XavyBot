@@ -73,6 +73,7 @@ const { otak } = require('./src/otak')
 const { levelmenu } = require('./src/levelmenu')
 /******FIN DE ENTRADA DEL MENÚ******/
 
+
 /******CARGA DE ENTRADA VCARD******/
 const vcard = 'BEGIN:VCARD\n' // Tarjeta de contacto
             + 'VERSION:1.0\n' 
