@@ -1,10 +1,10 @@
-const search = (prefix, XavyBot, Ochoa) => {
+const search = (prefix, botName, ownerName) => {
 	return `
-「 *${XavyBot}* 」
+「 *${botName}* 」
 
 ◪ *INFO*
   ❏ Prefix: 「  ${prefix}  」
-  ❏ Creator: ${Ochoa}
+  ❏ Creator: ${ownerName}
 ◪ *ABOUT*
   │
   ├─ ❏ ${prefix}info

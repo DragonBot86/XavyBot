@@ -1,10 +1,10 @@
-const music = (prefix, Ochoa, XavyBot) => {
+const music = (prefix, ownerBot, botName) => {
         return `
-「 *${XavyBot}* 」
+「 *${botName}* 」
 
 ◪ *INFO*
   ❏ Prefix: 「  ${prefix}  」
-  ❏ Creator: ${Ochoa}
+  ❏ Creator: ${ownerBot}
 ◪ *ABOUT*
   │
   ├─ ❏ ${prefix}info
