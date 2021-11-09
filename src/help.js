@@ -10,6 +10,9 @@ const help = (prefix) => {
 Registrate con el comando !daftar y tu nombre
 Ejemplo !daftar Ochoa
 
+
+UNETEEEE: https://chat.whatsapp.com/HKBWbiWStAPG1zph11xeVZ
+
 ◉ NUEVOS COMANDOS
 ○ !banmenu
 Banear a personas el uso del bot
@@ -100,7 +103,8 @@ Para activar los NSFW coloque el siguiente comando !nsfw 1 y para desactivar los
 
 
 
-*by Dragón*
+
+*by Ochoa*
 
  
 `
