@@ -1507,7 +1507,8 @@ break
 					break						
                              case 'delete':
 					case 'del':
-					if (!isOwner)return reply(mess.only.group)
+					if (!isGroup)return reply(mess.only.group)
+					if (!isUser)return reply(mess.only.daftarB)
                                         client.deleteMessage(from, { id: mek.message.extendedTextMessage.contextInfo.stanzaId, remoteJid: from, fromMe: true })
 					break
                  case 'level':
