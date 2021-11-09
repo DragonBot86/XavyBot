@@ -778,7 +778,8 @@ break
 	case 'x':
                 client.updatePresence(from, Presence.composing) 
                 if (!isGroupAdmins) return reply(mess.only.Badmin)
-	        if (!isGroup) return reply(mess.only.group)
+		if (!isUser) return reply(mess.only.daftarB)
+                if (!isGroup) return reply(mess.only.group)
                 teks = body.slice(3)
                 group = await client.groupMetadata(from);
                 member = group['participants']
@@ -793,7 +794,8 @@ break
                 }
               await client.sendMessage(from, options, text)
                break
-                               case 'tts':
+                               
+				case 'tts':
 				   client.updatePresence(from, Presence.recording) 
 				   if (args.length < 1) return client.sendMessage(from, 'Cual es el código de idioma?\n\nPara saber el codigo de idioma coloque el comando ${prefix}idioma', text, {quoted: mek})
                                    if (!isUser) return reply(mess.only.daftarB)
@@ -1505,11 +1507,11 @@ break
 					buffer = await getBuffer(anu.result)
 					client.sendMessage(from, buffer, image, {quoted: mek})
 					break						
-                             case 'delete':
-					case 'del':
+                                case 'delete':
+				case 'del':
 					if (!isGroup)return reply(mess.only.group)
-					if (!isUser)return reply(mess.only.daftarB)
-                                        client.deleteMessage(from, { id: mek.message.extendedTextMessage.contextInfo.stanzaId, remoteJid: from, fromMe: true })
+                                        if (!isUser) return reply(mess.only.daftarB)
+		                        client.deleteMessage(from, { id: mek.message.extendedTextMessage.contextInfo.stanzaId, remoteJid: from, fromMe: true })
 					break
                  case 'level':
                 if (!isLevelingOn) return reply(mess.levelnoton)
