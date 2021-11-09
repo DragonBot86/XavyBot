@@ -257,7 +257,7 @@ async function starts() {
 			console.log(anu)
 			if (anu.action == 'add') {
 				num = anu.participants[0]
-				teks = `HOLAA!! @${num.split('@')[0]} ¿COMO ESTAS?😃\n\n『Bienvenido A *${mdata.subject}*』\n\nUn gusto conocerte amig@ 🤗\n\n_Recuerda leer las reglas del grupo para no tener ningun problema 🧐_\n\n*Solo disfrutar de este grupo y divertite 🥳*`
+				teks = `HOLA MI QLONA HERMOSA @${num.split('@')[0]} ¿COMO ESTAS APARTE DE GUAPA?\n\n『BIENVENIDOS A ESTE GRUPO LLAMADO *${mdata.subject}*』\n\nCUMPLE LAS REGLAS PLIS\n\n_PRESENTATE CON NOMBRE FOTO EDAD Y DONDE VIVES :)_\n\n*SI ERES MORRA PASA PACK XDXD*`
                           client.sendMessage(mdata.id, teks, MessageType.text, { contextInfo: {"mentionedJid": [num]}})
 			} else if (anu.action == 'remove') {
 				num = anu.participants[0]
