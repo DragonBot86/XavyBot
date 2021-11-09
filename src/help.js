@@ -11,7 +11,8 @@ Registrate con el comando !daftar y tu nombre
 Ejemplo !daftar Ochoa
 
 
-UNETEEEE: https://chat.whatsapp.com/EkHbhl1XyRHDKQmoGkes4z
+Unete Hacemos La Amigacion :3: https://chat.whatsapp.com/EkHbhl1XyRHDKQmoGkes4z
+
 
 ◉ NUEVOS COMANDOS
 ○ !banmenu
