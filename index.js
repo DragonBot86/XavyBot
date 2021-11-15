@@ -773,6 +773,10 @@ break
 		client.sendMessage(from, 'Hola te saluda Ochoa, este es un mensaje predeterminado.\n\nArriba esta mi contacto por si tienen algun problema con las descargas o yo que se.\nYo soy dueño de este bot y lo controlo, yo cree la base de datos y le doy mantenimiento.\nEl numero osea mi contacto de arriba no es un bot.\nBueno disfruten del bot.\n\n_*by Ochoa*_',MessageType.text, { quoted: mek} )
                 client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                 break
+					
+	case 'numero'
+		client.sendMessage(from, 'Hola Qlona Hermosa Mi Numero Por Si Me Necesitas Es: +57 314 6224366./n/n_*By Ochoa*
+		break 
 	
 	
 	case 'x':
