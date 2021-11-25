@@ -261,7 +261,8 @@ async function starts() {
 𝙁𝙤𝙩𝙤:
 𝙉𝙤𝙢𝙗𝙧𝙚:
 𝙀𝙙𝙖𝙙:
-𝙋𝙖𝙞𝙨:《⛓️》\n\n_Espero te la pases bien☘️_\n\nEvita hacer pendejadas 🐉`
+𝙋𝙖𝙞𝙨:《⛓️》\n\n┉┅━ Recuerda leer las reglas, ok?, Edad permitida 14 a 25 años°☆°
+\n\n┉┅━Evita hacer pendejadas `
                           client.sendMessage(mdata.id, teks, MessageType.text, { contextInfo: {"mentionedJid": [num]}})
 			} else if (anu.action == 'remove') {
 				num = anu.participants[0]
@@ -333,7 +334,7 @@ async function starts() {
 					insta: 'Calmao 😎\n\n*Estoy descargando tu post 🔄*\n\nAguarde un momento, por favor\n\n_*by Dragón*_',
 					musica: 'Calmao pa estoy bucando tu canción 😎\n\n*Recuerda colocar bien el nombre de la cancion o el link del video de youtube*\n\n*Si el comando !play no funciona utiliza el comando !play2*\n\nSi no envio tu musica checa que version tienes del bot con !version\n\n_*by Dragón*_',
 					musica2: 'Calmao pa estoy bucando tu canción 😎\n\n*Recuerda colocar bien el nombre de la cancion o el link del video de youtube*\n\n*Si el comando !play2 no funciona utiliza el comando !play*\n\nSi no envio tu musica checa que version tienes del bot con !version\n\n_*by Dragón*_',
-					daftarB: `「NO ESTAS REGISTRADO」\n\nNO ESTAS EN MI DEATHNOTE\n\nPara poder usarme escribe el siguente comando\n\nComando: ${prefix}daftar Nombre\nEjemplo: ${prefix}daftar dragón`,
+					daftarB: `「NO ESTAS REGISTRADO」\n\nNO ESTAS EN MI DEATHNOTE\n\nPara poder usarme escribe el siguiente comando\n\nComando: ${prefix}daftar Nombre\nEjemplo: ${prefix}daftar dragón`,
 				}
 			}
     			const apakah = ['Si','No']
