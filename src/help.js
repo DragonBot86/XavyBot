@@ -10,7 +10,7 @@ const help = (prefix) => {
 Registrate con el comando !daftar y tu nombre
 Ejemplo !daftar Dragón
 
-◉ NUEVOS COMANDOS
+◉ NUEVOS COMANDOSS
 ○ !banmenu
 Banear a personas el uso del bot
 ○ !levelmenu
