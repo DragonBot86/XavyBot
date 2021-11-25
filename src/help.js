@@ -1,18 +1,14 @@
 const help = (prefix) => {
 	return `
-⌜ XavyBot By Ochoa ⌟  
+⌜ DragonBot By Dragón ⌟  
 
 ◉ INFORMACION
    ○ Comando: ⌜ ! ⌟
-   ○ Creador: Ochoa
+   ○ Creador: Dragón
 
 ◉ PARA USAR EL BOT
 Registrate con el comando !daftar y tu nombre
-Ejemplo !daftar Ochoa
-
-
-Unete Hacemos La Amigacion :3: https://chat.whatsapp.com/KwedPn60SEy8zS8HghwiBb
-
+Ejemplo !daftar Dragón
 
 ◉ NUEVOS COMANDOS
 ○ !banmenu
@@ -105,7 +101,7 @@ Para activar los NSFW coloque el siguiente comando !nsfw 1 y para desactivar los
 
 
 
-*by Ochoa*
+*by Dragón*
 
  
 `
