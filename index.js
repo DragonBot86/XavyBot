@@ -1637,12 +1637,12 @@ break
                   reply(`Te Doy?`)
                   }			
 		
-		if (budy.includes(`Pito`)) {
-                  reply(`Te Doy`)
+		if (budy.includes(`Grupo`)) {
+                  reply(`Este grupo nada más es para hacer amigos y desmadre, nada de ligar o andar de urgid@s, eso qué wey?. Ojito perras!!`)
                   }
 					
-		if (budy.includes(`Ochoa`)) {
-                  reply(`Eu Que Quieres`)
+		if (budy.includes(`grupo`)) {
+                  reply(`Este grupo nada más es para hacer amigos y desmadre, nada de ligar o andar de urgid@s, eso qué wey?. Ojito putas!!`)
                   }			
 					
 		if (budy.includes(`Todo bien`)) {
